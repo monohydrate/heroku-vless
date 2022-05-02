@@ -16,7 +16,7 @@
       "required": false
     },
     "WS_PATH": {
-      "description": "websocket path",
+      "description": "websocket path (anything)",
       "value": "/ray",
       "required": true
     }
