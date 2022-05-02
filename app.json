@@ -6,23 +6,23 @@
   ],
   "env": {
     "PROTOCOL": {
-      "description": "协议VMess或VLESS，请填小写的vmess或vless",
-      "value": "vmess",
+      "description": "vmess or vless",
+      "value": "vless",
       "required": true
     },
     "UUID": {
-      "description": "用户的主ID",
+      "description": "your ID (uuid generator)",
       "value": "",
       "required": false
     },
     "WS_PATH": {
-      "description": "websocket路径",
+      "description": "websocket path",
       "value": "/ray",
       "required": true
     }
   },
-  "website": "https://github.com/XiqtkTymgs/heroku-vless",
-  "repository": "https://github.com/XiqtkTymgs/heroku-vless",
+  "website": "https://github.com/monohydrate/heroku-vless",
+  "repository": "https://github.com/monohydrate/heroku-vless",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
